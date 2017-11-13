@@ -1,0 +1,283 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width: 767px) {
+        .navbar_underline{
+        border-bottom:  0px solid red;  
+        }
+        .header_slider{ 
+            height: 90vh;
+            width: 100%; 
+        }
+        .slider_text h1{
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Lato';
+        }
+        .slider_text p{
+            color: #fff;
+            font-size: 14px; 
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+        .slider_text .btn-default {
+            color: #fff; 
+            margin-top: 10%;
+        }
+        .service_items{
+        margin-top: 30px; 
+        padding: 0 25px;
+    }
+        figure{ 
+          border: 10px solid #fff; 
+        }
+        .developer img{
+        border: 20px solid #fff;
+        box-sizing: border-box; 
+    }
+
+        /*testimonial start*/
+        #testimonial{ 
+            width: 100%;
+            height: 75vh; 
+        }
+
+        #slideshow { 
+          position: relative;
+          color: #fff;  
+        }
+
+        #slideshow > div {
+          position: absolute;
+          top: 0px;
+          right: 10px;
+          bottom: 10px;
+        }
+        #slideshow img{
+            width: 100%;
+        }
+        blockquote{
+            border: none !important;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .testi_text_para{
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: 4%;
+            margin-bottom: 4%;
+            font-style: italic;
+        }
+        .author{
+            font-size: 10px;
+        }
+        .lacation_icons, .location_us{
+            margin-top: 25px;
+        }
+}
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -25px;
+    }
+         .slider_text h1{
+            color: #fff;
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Lato';
+        }
+        .slider_text p{
+            color: #fff;
+            font-size: 18px; 
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        figure{ 
+          border: 10px solid #fff; 
+        }
+        .developer img{
+        border: 10px solid #fff;
+        box-sizing: border-box; 
+    }
+          /*testimonial start*/
+        #testimonial{ 
+            width: 100%;
+            height: 50vh; 
+        }
+
+        #slideshow { 
+          position: relative;
+          color: #fff;  
+        }
+
+        #slideshow > div {
+          position: absolute;
+          top: 0px;
+          right: 10px;
+          bottom: 10px;
+        }
+        #slideshow img{
+            width: 100%;
+        }
+        blockquote{
+            border: none !important;
+            width: 70%;
+            margin: 0 auto;
+        }
+        .testi_text_para{
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 5%;
+            margin-bottom: 4%;
+            font-style: italic;
+        }
+        .author{
+            font-size: 14px;
+        }
+}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+.slider_text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.slider_text p{
+    color: #fff;
+    font-size: 20px;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+    figure{ 
+          border: 1px solid #fff; 
+    }
+    .developer img{
+        border: 5px solid #fff;
+        box-sizing: border-box; 
+    }
+/*testimonial start*/
+#testimonial{
+    background: #53354A;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+}
+
+#slideshow { 
+  position: relative;
+  color: #fff;  
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  bottom: 10px;
+}
+#slideshow img{
+    width: 100%;
+}
+blockquote{
+    border: none !important;
+    width: 70%;
+    margin: 0 auto;
+}
+.testi_text_para{
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-style: italic;
+}
+.author{
+font-size: 16px; 
+}
+
+/*testimonial end*/
+
+/*testimonial end*/
+/*team section start*/ 
+#team{
+    padding: 80px 0; 
+}
+.developer img{
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+.developer_content h3{
+    color: #000;
+    font-size: 25px;
+}
+.developer_content h5{
+    color: #EC4545;
+    font-size: 18px;
+}
+.developer_content p {
+    text-align: justify;
+    padding: 8px;
+
+}
+.developer_content{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.t_singleIcons{
+    margin-top: 4%;
+    border: 1px solid gray;
+    margin-right: 5px;
+    padding: 15px;  
+}
+.t_singleIcons:hover{
+    background: #E84545;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #E84545;
+}
+
+/*team section end*/
+
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }

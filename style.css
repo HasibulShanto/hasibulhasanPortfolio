@@ -73,7 +73,7 @@ nav.navbar.navbar-default.header_nav.navbar-fixed-top.header-middle.sticky {
 /*slider section*/
 
 #header_slider{
-	background: url(images/banner.jpg);
+	background: url(banner.jpg);
 	height: 100vh;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -554,7 +554,7 @@ figure:hover img{
 #contact_me{
   padding-top: 100px; 
   padding-bottom: 180px;
-  background: url(images/coverbench.JPG) ;
+  background: url(coverbench.JPG) ;
   background-position: center 50%;
   -webkit-background-size: cover;
   background-size: cover;

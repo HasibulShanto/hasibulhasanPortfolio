@@ -139,7 +139,12 @@ nav.navbar.navbar-default.header_nav.navbar-fixed-top.header-middle.sticky {
 
 /*============================================================================
 =============================================================================*/
- 
+.behind-h1{
+  font-size: 120px;
+  opacity: .05;
+  margin-bottom: -60px;
+  letter-spacing: 22px;
+}
 
 /*About section Start*/
 

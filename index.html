@@ -11,6 +11,8 @@
 		<!-- Font awesome -->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Lato|Lobster|Russo+One" rel="stylesheet">
+		<!-- AOS CSS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<!-- owl carousel CSS -->
 		<link rel="stylesheet" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -62,9 +64,10 @@
 								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 							</ol>
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
+							<div data-aos="zoom-in" data-aos-duration="3000"><!-- Wrapper for slides -->
+							<div class="carousel-inner animated bounceInUp" role="listbox">
+								
+								<div  class="item active">
 									<h3>Full Stack Web Developer </h3>
 									<h2>Full Stack<span>  Dev</span></h2>
 									<h4>Laravel / Vue.Js / Bootstrap/ Full Responsive</h4>
@@ -86,6 +89,7 @@
 									<h4>Customization / Ecommerce / Landing Page</h4>
 								</div>
 							</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -95,38 +99,48 @@
 				<section id="About">
 					<div class="container">
 						<div class="row">
+							
 							<div class="about_header text-center">
 								<!--animated button-->
 								<div class='btn-cont atomic'>
-									<h1 class="behind-h1 visible-md-block visible-lg-block">ABOUT</h1>
-									<a class='btn' href='#About'>
-										About
-										<span class='line-1'></span>
-										<span class='line-2'></span>
-										<span class='line-3'></span>
-										<span class='line-4'></span>
-									</a>
+									<div data-aos="zoom-out-down" data-aos-duration="3000">
+										<h1 class="behind-h1 visible-md-block visible-lg-block">ABOUT</h1>
+										<a class='btn' href='#About'>
+											About
+											<span class='line-1'></span>
+											<span class='line-2'></span>
+											<span class='line-3'></span>
+											<span class='line-4'></span>
+										</a>
+									</div>
 								</div>
 								<!--animated button-->
 								<h3>Who I am ?</h3>
 								<div class="under_large_border"></div>
 							</div>
+
 							<div class="about_des">
-								<div class="left_about">
-									<div class="me col-sm-5 col-md-4">
-										<img src="images/aboutLeft.JPG" class="img-responsive" alt="Hasibul Hasan shanto">
+								<div data-aos="fade-right"  data-aos-duration="3000">
+									<div class="left_about">
+									
+										<div class="me col-sm-5 col-md-4">
+											<img src="images/aboutLeft.JPG" class="img-responsive" alt="Hasibul Hasan shanto">
+										</div>
 									</div>
 								</div>
-								<div class="right_about">
-									<div class="rigt_des col-sm-7 col-md-8">
-										<h2>Hasibul Hasan Shanto</h2>
-										<h3>Full Stack Web Developer</h3>
-										<p> Hi there! I'm Hasibul Hasan Shanto and  have completed my bachelor degree in Computer Science and Engineering. I am an excellent Full Stack Web Developer with  Laravel and Vue.js. I am confident and skilled in my creative work. My passion helps me to do great things with creativity. I am highly dedicated in Full Stack Web Development solutions. I have been working as a Full Stack Web Developer on local Market for the last two years. Besides, I enjoy learning about new technologies and have passion on Web Development and love to put myself through tons of tests, acquiring new skills in the process!</p>
-										<p>From my experience and Skill, I am capable to provide excellent Laravel Web Development, Vue.js Web Design, Single Page Apllication with Vue, Full Stack Web Development, 100% Responsive Solution and I have a trustworthy experience on WordPress customization. I am passionate about my work and curious to gain new lessons by doing challenging projects.</p>
-										
-										<p>I believe that I am well qualified for your any type of web development task and would like to have the opportunity to work with you .</p>
-										<div class="button">
-											<a href="#About"><button type="submit" class="btn submit_btn">Resume <i class="fa fa-angle-double-right"></i></button></a>
+								<div data-aos="fade-left"  data-aos-duration="3000">
+									<div class="right_about">
+									
+										<div class="rigt_des col-sm-7 col-md-8">
+											<h2>Hasibul Hasan Shanto</h2>
+											<h3>Full Stack Web Developer</h3>
+											<p> Hi there! I'm Hasibul Hasan Shanto and  have completed my bachelor degree in Computer Science and Engineering. I am an excellent Full Stack Web Developer with  Laravel and Vue.js. I am confident and skilled in my creative work. My passion helps me to do great things with creativity. I am highly dedicated in Full Stack Web Development solutions. I have been working as a Full Stack Web Developer on local Market for the last two years. Besides, I enjoy learning about new technologies and have passion on Web Development and love to put myself through tons of tests, acquiring new skills in the process!</p>
+											<p>From my experience and Skill, I am capable to provide excellent Laravel Web Development, Vue.js Web Design, Single Page Apllication with Vue, Full Stack Web Development, 100% Responsive Solution and I have a trustworthy experience on WordPress customization. I am passionate about my work and curious to gain new lessons by doing challenging projects.</p>
+											
+											<p>I believe that I am well qualified for your any type of web development task and would like to have the opportunity to work with you .</p>
+											<div class="button">
+												<a href="#About"><button type="submit" class="btn submit_btn">Resume <i class="fa fa-angle-double-right"></i></button></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -142,262 +156,329 @@
 							<div class="about_header text-center">
 								<!--animated button-->
 								<div class='btn-cont'>
-									<h1 class="behind-h1 visible-md-block visible-lg-block">PORTFOLIO</h1>
-									<a class='btn' href='#Portfoilo'>
-										Portfolio
-										<span class='line-1'></span>
-										<span class='line-2'></span>
-										<span class='line-3'></span>
-										<span class='line-4'></span>
-									</a>
+									<div data-aos="zoom-out-down" data-aos-duration="3000">
+										<h1 class="behind-h1 visible-md-block visible-lg-block">PORTFOLIO</h1>
+										<a class='btn' href='#Portfoilo'>
+											Portfolio
+											<span class='line-1'></span>
+											<span class='line-2'></span>
+											<span class='line-3'></span>
+											<span class='line-4'></span>
+										</a>
+									</div>
 								</div>
 								<!--animated button-->
 								<h3>My Recent Work</h3>
 								<div class="under_large_border container"></div>
 							</div>
+
 							<div class="portfolio_items">
-								
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-17.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Multi Authenticate Laravel Blog</h4>
-											<h3>Blog Website</h3>
-											<a href="#" type="submit" target="_blank" class="btn btn-default site">Live on Heroku</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-18.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Laravel and Vue.js Project</h4>
-											<h3>Eiser Ecommerce</h3>
-											<a href="#" target="_blank" type="submit" class="btn btn-default site">Live on Heroku</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-19.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Laravel Job Site Project</h4>
-											<h3>Under Construction</h3>
-											<a href="https://github.com/hasibulhasanshanto/job-portal" target="_blank" type="submit" class="btn btn-default site">Code on Github</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-20.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Vue Laravel Rest Api Project</h4>
-											<h3>Search Able Data table</h3>
-											<a href="http://damp-falls-48454.herokuapp.com/customers" target="_blank" type="submit" class="btn btn-default site">Live on Heroku</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-9.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Weather app with Api in Vue.js</h4>
-											<h3>Weather App</h3>
-											<a href="https://hasibulhasanshanto.github.io/vue-weather-app/" type="submit" target="_blank" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-10.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Todo App with Vue.js</h4>
-											<h3>Todo App</h3>
-											<a href="https://hasibulhasanshanto.github.io/vue-todo-app/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-11.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Product Card with Vue.js</h4>
-											<h3>Animating Product Card</h3>
-											<a href="https://hasibulhasanshanto.github.io/vue-animation-product-card/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
-								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-12.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Vue Simple Project</h4>
-											<h3>Vue Bazar List</h3>
-											<a href="https://hasibulhasanshanto.github.io/bazarlistVue/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="fade-up-right" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-17.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Multi Authenticate Laravel Blog</h4>
+												<h3>Blog Website</h3>
+												<a href="http://salty-plateau-30661.herokuapp.com/" type="submit" target="_blank" class="btn btn-default site">Live on Heroku</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
 								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-13.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Animated Slider with Progressbar</h4>
-											<h3>Redesign Airbringr</h3>
-											<a href="https://hasibulhasanshanto.github.io/audacity-test/" type="submit" target="_blank" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="fade-down" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-18.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Laravel and Vue.js Project</h4>
+												<h3>Eiser Ecommerce</h3>
+												<a href="#" target="_blank" type="submit" class="btn btn-default site">Live on Heroku</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+							
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-14.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Animated Background with JS</h4>
-											<h3>Zoomshaper Test Demo</h3>
-											<a href="https://hasibulhasanshanto.github.io/joomshaper-test/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
-								</div>
+									<div data-aos="fade-up" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-19.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Laravel Job Site Project</h4>
+												<h3>Under Construction</h3>
+												<a href="https://github.com/hasibulhasanshanto/job-portal" target="_blank" type="submit" class="btn btn-default site">Code on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>								
+								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-15.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Dynamic Routine Management System</h4>
-											<h3>Admin Panel Design</h3>
-											<a href="https://hasibulhasanshanto.github.io/DRMSGB/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="fade-up-left" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-20.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Vue Laravel Rest Api Project</h4>
+												<h3>Search Able Data table</h3>
+												<a href="http://damp-falls-48454.herokuapp.com/customers" target="_blank" type="submit" class="btn btn-default site">Live on Heroku</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								<!-- Col-md-3 1st row end -->
+								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-16.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Infinity Scroll with JS</h4>
-											<h3>Facebook Scrool Page</h3>
-											<a href="https://hasibulhasanshanto.github.io/ComentAreaJs/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="flip-left" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-9.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Weather app with Api in Vue.js</h4>
+												<h3>Weather App</h3>
+												<a href="https://hasibulhasanshanto.github.io/vue-weather-app/" type="submit" target="_blank" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-3.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Landing Page</h4>
-											<h3>Photo UP</h3>
-											<a href="https://hasibulhasanshanto.github.io/PhotoUpFinal/" type="submit" target="_blank" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="flip-right" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-10.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Todo App with Vue.js</h4>
+												<h3>Todo App</h3>
+												<a href="https://hasibulhasanshanto.github.io/vue-todo-app/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-4.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Full Responsive</h4>
-											<h3>Active Box</h3>
-											<a href="https://hasibulhasanshanto.github.io/ActiveBoxFullResponsive/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="flip-left" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-11.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Product Card with Vue.js</h4>
+												<h3>Animating Product Card</h3>
+												<a href="https://hasibulhasanshanto.github.io/vue-animation-product-card/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-2.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Ecommerce</h4>
-											<h3>Karushilpo</h3>
-											<a href="https://hasibulhasanshanto.github.io/KarushilpoBazar/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="flip-right" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-12.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Vue Simple Project</h4>
+												<h3>Vue Bazar List</h3>
+												<a href="https://hasibulhasanshanto.github.io/bazarlistVue/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								<!-- Col-md-3 2nd row end -->
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-1.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Portfolio</h4>
-											<h3>We are ONU</h3>
-											<a href="https://hasibulhasanshanto.github.io/WeAreOnu/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="zoom-out" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-13.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Animated Slider with Progressbar</h4>
+												<h3>Redesign Airbringr</h3>
+												<a href="https://hasibulhasanshanto.github.io/audacity-test/" type="submit" target="_blank" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-5.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Demo Landing Page</h4>
-											<h3>Sart Bootstrap</h3>
-											<a href="https://hasibulhasanshanto.github.io/BootstrapOne-Responsive-/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="zoom-in" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-14.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Animated Background with JS</h4>
+												<h3>Zoomshaper Test Demo</h3>
+												<a href="https://hasibulhasanshanto.github.io/joomshaper-test/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-6.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Restaurant Site</h4>
-											<h3>Resto Food</h3>
-											<a href="https://hasibulhasanshanto.github.io/RestoFood/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="zoom-out" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-15.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Dynamic Routine Management System</h4>
+												<h3>Admin Panel Design</h3>
+												<a href="https://hasibulhasanshanto.github.io/DRMSGB/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-7.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Full Responsive</h4>
-											<h3>Main Bootstrap</h3>
-											<a href="https://hasibulhasanshanto.github.io/MainBootstrapAss/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="zoom-in" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-16.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Infinity Scroll with JS</h4>
+												<h3>Facebook Scrool Page</h3>
+												<a href="https://hasibulhasanshanto.github.io/ComentAreaJs/" target="_blank" type="submit" class="btn btn-default site">Live on Github</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+								<!-- Col-md-3 3rd row end -->
+
 								<div class="col-md-3 col-sm-6 col-xs-12">
-									<figure>
-										<img src="images/port-8.jpg"  alt="Thumb" width="400" height="300">
-										<figcaption>
-										<div class="overlay_text">
-											<h4>Portfolio Site</h4>
-											<h3>Simple Port</h3>
-											<a href="https://hasibulhasanshanto.github.io/practicePortfolio/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
-										</div>
-										</figcaption>
-									</figure>
+									<div data-aos="fade-right" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-3.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Landing Page</h4>
+												<h3>Photo UP</h3>
+												<a href="https://hasibulhasanshanto.github.io/PhotoUpFinal/" type="submit" target="_blank" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
 								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="fade-left" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-4.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Full Responsive</h4>
+												<h3>Active Box</h3>
+												<a href="https://hasibulhasanshanto.github.io/ActiveBoxFullResponsive/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="fade-right" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-2.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Ecommerce</h4>
+												<h3>Karushilpo</h3>
+												<a href="https://hasibulhasanshanto.github.io/KarushilpoBazar/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="fade-left" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-1.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Portfolio</h4>
+												<h3>We are ONU</h3>
+												<a href="https://hasibulhasanshanto.github.io/WeAreOnu/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+								<!-- Col-md-3 4th row end -->
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="zoom-in" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-5.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Demo Landing Page</h4>
+												<h3>Sart Bootstrap</h3>
+												<a href="https://hasibulhasanshanto.github.io/BootstrapOne-Responsive-/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="zoom-out" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-6.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Restaurant Site</h4>
+												<h3>Resto Food</h3>
+												<a href="https://hasibulhasanshanto.github.io/RestoFood/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="zoom-in" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-7.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Full Responsive</h4>
+												<h3>Main Bootstrap</h3>
+												<a href="https://hasibulhasanshanto.github.io/MainBootstrapAss/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<div data-aos="zoom-out" data-aos-duration="3000">
+										<figure>
+											<img src="images/port-8.jpg"  alt="Thumb" width="400" height="300">
+											<figcaption>
+											<div class="overlay_text">
+												<h4>Portfolio Site</h4>
+												<h3>Simple Port</h3>
+												<a href="https://hasibulhasanshanto.github.io/practicePortfolio/" target="_blank" type="submit" class="btn btn-default site">See Live</a>
+											</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+								<!-- Col-md-3 5th row end -->
+
 							</div>
 							<div class="button">
 								<a href="https://github.com/hasibulhasanshanto" target="_blank"><button type="submit" class="btn submit_btn">See More <i class="fa fa-angle-double-right"></i></button></a>
@@ -413,14 +494,16 @@
 							<div class="about_header text-center">
 								<!--animated button-->
 								<div class='btn-cont'>
-									<h1 class="behind-h1 visible-md-block visible-lg-block">SKILLS</h1>
-									<a class='btn' href='#skills'>
-										Skills
-										<span class='line-1'></span>
-										<span class='line-2'></span>
-										<span class='line-3'></span>
-										<span class='line-4'></span>
-									</a>
+									<div data-aos="zoom-out-down" data-aos-duration="3000">
+										<h1 class="behind-h1 visible-md-block visible-lg-block">SKILLS</h1>
+										<a class='btn' href='#skills'>
+											Skills
+											<span class='line-1'></span>
+											<span class='line-2'></span>
+											<span class='line-3'></span>
+											<span class='line-4'></span>
+										</a>
+									</div>
 								</div>
 								<!--animated button-->
 								<h3>All my Skills</h3>
@@ -431,157 +514,181 @@
 									<div id="bars" class="row">
 										<!-- First Row -->
 										<div class="col-md-3 col-sm-6">
-											<h3>PHP</h3>
-											<div class="progress green">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">85%</div>
+											<div data-aos="zoom-in-right" data-aos-duration="3000">
+												<h3>PHP</h3>
+												<div class="progress green">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">85%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>JAVASCRIPT(ES6)</h3>
-											<div class="progress yellow">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">75%</div>
+											<div data-aos="zoom-in-left" data-aos-duration="3000">
+												<h3>JAVASCRIPT(ES6)</h3>
+												<div class="progress yellow">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">75%</div>
+												</div>
 											</div>
 										</div>
 										<div class="col-md-3 col-sm-6">
-											<h3>HTML5</h3>
-											<div class="progress blue">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">90%</div>
+											<div data-aos="zoom-in-right" data-aos-duration="3000">
+												<h3>HTML5</h3>
+												<div class="progress blue">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">90%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>CSS3</h3>
-											<div class="progress blue">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">90%</div>
+											<div data-aos="zoom-in-left" data-aos-duration="3000">
+												<h3>CSS3</h3>
+												<div class="progress blue">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">90%</div>
+											</div>
 											</div>
 										</div>
 										<!-- End First Row -->
 										<!-- Second Row -->
 										<div class="col-md-3 col-sm-6">
-											<h3>Laravel</h3>
-											<div class="progress yellow">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">75%</div>
+											<div data-aos="zoom-out-up" data-aos-duration="3000">
+												<h3>Laravel</h3>
+												<div class="progress yellow">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">75%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>Vue.JS</h3>
-											<div class="progress red">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">70%</div>
+											<div data-aos="zoom-out-down" data-aos-duration="3000">
+												<h3>Vue.JS</h3>
+												<div class="progress red">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">70%</div>
+												</div>
 											</div>
 										</div>
 										<div class="col-md-3 col-sm-6">
-											<h3>Bootstrap</h3>
-											<div class="progress blue">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">90%</div>
+											<div data-aos="zoom-out-up" data-aos-duration="3000">
+												<h3>Bootstrap</h3>
+												<div class="progress blue">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">90%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>Flexbox</h3>
-											<div class="progress pink">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">60%</div>
+											<div data-aos="zoom-out-down" data-aos-duration="3000">
+												<h3>Flexbox</h3>
+												<div class="progress pink">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">60%</div>
+												</div>
 											</div>
 										</div>
 										<!-- End Second Row -->
 										<!-- Third Row -->
 										<div class="col-md-3 col-sm-6">
-											<h3>GIT / Github</h3>
-											<div class="progress red">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">70%</div>
+											<div data-aos="fade-right" data-aos-duration="3000">
+												<h3>GIT / Github</h3>
+												<div class="progress red">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">70%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>MySql</h3>
-											<div class="progress blue">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">90%</div>
+											<div data-aos="fade-right" data-aos-duration="3000">
+												<h3>MySql</h3>
+												<div class="progress blue">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">90%</div>
+												</div>
 											</div>
 										</div>
 										<div class="col-md-3 col-sm-6">
-											<h3>Apache</h3>
-											<div class="progress yellow">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">75%</div>
+											<div data-aos="fade-left" data-aos-duration="3000">
+												<h3>Apache</h3>
+												<div class="progress yellow">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">75%</div>
+												</div>
 											</div>
 										</div>
 										
 										<div class="col-md-3 col-sm-6">
-											<h3>Photoshop</h3>
-											<div class="progress green">
-												<span class="progress-left">
-													<span class="progress-bar"></span>
-												</span>
-												<span class="progress-right">
-													<span class="progress-bar"></span>
-												</span>
-												<div class="progress-value">85%</div>
+											<div data-aos="fade-left" data-aos-duration="3000">
+												<h3>Photoshop</h3>
+												<div class="progress green">
+													<span class="progress-left">
+														<span class="progress-bar"></span>
+													</span>
+													<span class="progress-right">
+														<span class="progress-bar"></span>
+													</span>
+													<div class="progress-value">85%</div>
+												</div>
 											</div>
 										</div>
 										<!-- End Third Row -->
@@ -600,14 +707,16 @@
 						<div class="row">
 							<!--animated button-->
 							<div class='btn-cont'>
-								<h1 class="behind-h1 visible-md-block visible-lg-block">TESTIMONIALS</h1>
-								<a class='btn' href='#client_section'>
-									Testimonials
-									<span class='line-1'></span>
-									<span class='line-2'></span>
-									<span class='line-3'></span>
-									<span class='line-4'></span>
-								</a>
+								<div data-aos="zoom-out-down" data-aos-duration="3000">
+									<h1 class="behind-h1 visible-md-block visible-lg-block">TESTIMONIALS</h1>
+									<a class='btn' href='#client_section'>
+										Testimonials
+										<span class='line-1'></span>
+										<span class='line-2'></span>
+										<span class='line-3'></span>
+										<span class='line-4'></span>
+									</a>
+								</div>
 							</div>
 							<!--animated button-->
 							<div class="client_reviews">
@@ -617,55 +726,58 @@
 								<div class="under_large_border container"></div>
 								<div class="container">
 									<div class="reviews row">
-									<div class="testimonial-carousel section-padding">
-										<div class="owl-carousel owl-theme">
 
-											<div class="item">
-												<div class="box">
-													<div class="image-box text-center">
-														<img src="images/clients/1.jpg" alt="">
-													</div>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
-													</p>
-													<h4>Helder Melo <br><span>Producer of Ascetics Studios</span></h4>
-												</div>  
-											</div>
+									<div data-aos="fade-up"  data-aos-duration="3000">
+										<div class="testimonial-carousel section-padding">
+											<div class="owl-carousel owl-theme">
 
-											<div class="item">
-												<div class="box">
-													<div class="image-box text-center">
-														<img src="images/clients/2.jpg" alt="">
-													</div>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
-													</p>
-													<h4>Lily Rosa <br><span>CTO, Explore Maldives</span></h4>
-												</div>  
-											</div>
+												<div class="item">
+													<div class="box">
+														<div class="image-box text-center">
+															<img src="images/clients/1.jpg" alt="">
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
+														</p>
+														<h4>Helder Melo <br><span>Producer of Ascetics Studios</span></h4>
+													</div>  
+												</div>
 
-											<div class="item">
-												<div class="box">
-													<div class="image-box">
-														<img src="images/clients/3.jpg" alt="" class="img-responsive">
-													</div>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
-													</p>
-													<h4>Suzon Bishwas <br><span>Owner, Kids Nakshi Katha</span></h4>
-												</div>  
-											</div>
+												<div class="item">
+													<div class="box">
+														<div class="image-box text-center">
+															<img src="images/clients/2.jpg" alt="">
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
+														</p>
+														<h4>Lily Rosa <br><span>CTO, Explore Maldives</span></h4>
+													</div>  
+												</div>
 
-											<div class="item">
-												<div class="box">
-													<div class="image-box">
-														<img src="images/clients/4.jpg" alt="" class="img-responsive">
-													</div>
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
-													</p>
-													<h4>Asparas Liza <br><span>Florida, USA</span></h4>
-												</div> 
+												<div class="item">
+													<div class="box">
+														<div class="image-box">
+															<img src="images/clients/3.jpg" alt="" class="img-responsive">
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
+														</p>
+														<h4>Suzon Bishwas <br><span>Owner, Kids Nakshi Katha</span></h4>
+													</div>  
+												</div>
+
+												<div class="item">
+													<div class="box">
+														<div class="image-box">
+															<img src="images/clients/4.jpg" alt="" class="img-responsive">
+														</div>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex labore harum aliquid ducimus eligendi error voluptate, laboriosam aut nulla et inventore ipsum quia ipsam illo debitis! Dicta assumenda, tempora voluptas?
+														</p>
+														<h4>Asparas Liza <br><span>Florida, USA</span></h4>
+													</div> 
+												</div>
 											</div>
-										</div>
-										
-									</div> 
+											
+										</div> 
+									</div>
 								</div>
 								</div>
 							</div>
@@ -681,18 +793,22 @@
 							<div class="about_header text-center">
 								<!--animated button-->
 								<div class='btn-cont'> 
-									<a class='btn' href='#contact_me'>
-										Drop a line
-										<span class='line-1'></span>
-										<span class='line-2'></span>
-										<span class='line-3'></span>
-										<span class='line-4'></span>
-									</a>
+									<div data-aos="zoom-out-down" data-aos-duration="3000">
+										<a class='btn' href='#contact_me'>
+											Drop a line
+											<span class='line-1'></span>
+											<span class='line-2'></span>
+											<span class='line-3'></span>
+											<span class='line-4'></span>
+										</a>
+									</div>
 								</div>
 							</div>
 							<!--animated button-->
 							<!-- Message field -->
 							<div class="container">
+
+								<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
 								<div class="message_area text-center">
 									<div class="message_top">
 										<h3>Wanna say something.</h3>
@@ -713,6 +829,7 @@
 										</div>
 									</form>
 								</div>
+								</div>
 							</div>
 							<!-- Message field -->
 							<h3 class="text-center socialHead">Find me on Socials</h3>
@@ -720,33 +837,34 @@
 						</div>
 					</div>
 					<div class="container2">
-						
-						<ul class="social">
-							<li class="facebook">
-								<a href="https://www.facebook.com/kajalshanto" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li class="linked-in">
-								<a href="https://www.linkedin.com/in/kajalshanto/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li class="twitter">
-								<a href="https://www.behance.net/kajalshanto" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li class="gPlus">
-								<a href="https://gitlab.com/kajalshanto" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i>
-								</a>
-							</li>
-							<li class="github">
-								<a href="https://github.com/hasibulhasanshanto" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
-								</a>
-							</li>
-							<!-- <li class="linked-in">
-										<a href="https://www.linkedin.com/in/kajalshanto/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
-										</a>
-							</li> -->
-						</ul>
+						<div data-aos="zoom-in-up" data-aos-duration="2000">
+							<ul class="social">
+								<li class="facebook">
+									<a href="https://www.facebook.com/kajalshanto" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="linked-in">
+									<a href="https://www.linkedin.com/in/kajalshanto/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="twitter">
+									<a href="https://www.behance.net/kajalshanto" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="gPlus">
+									<a href="https://gitlab.com/kajalshanto" target="_blank"><i class="fa fa-gitlab" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="github">
+									<a href="https://github.com/hasibulhasanshanto" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+								</li>
+								<!-- <li class="linked-in">
+											<a href="https://www.linkedin.com/in/kajalshanto/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+								</li> -->
+							</ul>
+						</div>
 						</div> <!-- end container -->
 					</div>
 				</section>
@@ -771,7 +889,9 @@
 				<!-- Include all compiled plugins (below), or include individual files as needed -->
 				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 				<!-- jQuery (necessary for Bootstrap's JavaScript End Here) -->
-				<script src="js/owl.carousel.min.js"></script>
+				<script src="js/owl.carousel.min.js"></script> 
+				<!-- AOS JS -->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 				<!--  Navbar animation & testimonial slider-->
 				<script>
 					$("#slideshow > div:gt(0)").hide();
@@ -851,6 +971,9 @@
 						    }
 						})
 					});
+				</script> 
+				<script>
+				  AOS.init();
 				</script>
 
 			</body>

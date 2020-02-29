@@ -74,6 +74,10 @@ nav.navbar.navbar-default.header_nav.navbar-fixed-top.header-middle.sticky {
 
 }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+    overflow: hidden;
+}
 /*============================================================================
 =============================================================================*/
 /*slider section*/
